@@ -1,0 +1,515 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Amaryllis By Adeena Adnan</title>
+  <link rel="shortcut icon" href="logo with tran-parent.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+  <div class="header">
+    <div class="nav">
+      <img src="logo with tran-parent.png" alt="" width="66px" height="64px" title="Logo">
+      <ul class="nav-ul">
+        <li class="nav-lis"><a href="#" style="text-decoration: none; color: white;">Home</a></li>
+        <li class="nav-lis"><a href="#" style="text-decoration: none; color: white;">Website</a></li>
+
+
+
+        <li class="nav-lis"><a href="#" style="text-decoration: none; color: white;">Products</a> <img src="arrow_drop_down_30dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" alt="" width="15px" height="13px">
+          <div class="dropdown">
+            <ul class="dropdown2">
+            <li class="dropdown1"><a href="earring.html">Earrings</a></li>
+            <li class="dropdown1"><a href="necklaces.html">Necklaces & Studs</a></li>
+            <li class="dropdown1"><a href="Key chains.html">Key chains</a></li>
+            <li class="dropdown1"><a href="candle.html">Scented Candles</a></li>
+            <li class="dropdown1"><a href="Hijab Pins.html">Hijab Pins</a></li>
+            <li class="dropdown1"><a href="jura.html">Jura Pins</a></li>
+            <li class="dropdown1"><a href="mugs.html">Mugs</a></li>
+            </ul>
+          </div>
+        
+        </li>
+  
+        <!-- <li class="nav-lis"><a href="#" style="text-decoration: none; color: white;">About Us</a></li> -->
+        <li class="nav-lis"><a href="contact us.html" style="text-decoration: none; color: white;">Contact Us</a></li>
+        <li onclick=showSidebar() class="nav-li"><svg xmlns="http://www.w3.org/2000/svg" height="26px"
+            viewBox="0 -960 960 960" width="26px" fill="#000000">
+            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+          </svg></li>
+      </ul>
+
+      <!--<a href="#"><img src="1146042.webp" alt="" width="50px" height="40px"></a> -->
+      <ul class="sidebar">
+        <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px"
+              viewBox="0 -960 960 960" width="26px" fill="#5f6368">
+              <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" /></svg></a></li>
+        <li><a class="nav_a" href="amaryllis.html">Home</a></li>
+        <li><a class="nav_a" href="amaryllis.html">Website</a></li>
+        <li onclick="hideShow()"><a class="nav_a" href="#">Products<i class="fa-solid fa-chevron-down"></i></a></li>
+
+        <ul id="main2" class="main2">
+            <li class="dropdown1"><a href="earring.html">Earrings</a></li>
+            <li class="dropdown1"><a href="necklaces.html">Necklaces & Studs</a></li>
+            <li class="dropdown1"><a href="Key chains.html">Key chains</a></li>
+            <li class="dropdown1"><a href="candle.html">Scented Candles</a></li>
+            <li class="dropdown1"><a href="Hijab Pins.html">Hijab Pins</a></li>
+            <li class="dropdown1"><a href="jura.html">Jura Pins</a></li>
+            <li class="dropdown1"><a href="mugs.html">Mugs</a></li>
+            </ul>
+
+        <!-- <li><a class="nav_a" href="#">About Us</a></li> -->
+        <li><a class="nav_a" href="contact us.html">Contact Us</a></li>
+      </ul>
+    </div>
+    <script>
+      let div = document.getElementById('main2');
+      let display = 0;
+
+      function hideShow(){
+        if(display == 1){
+          div.style.display = 'block';
+          display = 0;
+        }
+        else{
+          div.style.display = 'none';
+          display = 1;
+        }
+      }
+    </script>
+
+    <script>
+      function showSidebar() {
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+      }
+      function hideSidebar() {
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+      }
+    </script>
+
+
+
+    <img class="main" src="main page.jpg">
+
+    <!-- <div class="title">
+       <h1>Amaryllis By Adeena Adnan</h1>
+      <h2>Handmade Things</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis eveniet animi tempore sapiente. Omnis,
+        laboriosam quis sint reprehenderit iure eum nesciunt placeat quasi sunt officiis incidunt consequatur.
+        Voluptatem, corrupti amet!</p>
+      </div>  -->
+  </div>
+  </div>
+
+  <div class="container">
+    <div class="sec1">
+      <h1 class="heading">Scented Candles </h1>
+      <p class="paragraph">Handmade candles offer a unique, artisanal touch that sets them apart from mass-produced alternatives. Crafted with care and often made from natural ingredients like soy wax, beeswax, or essential oils, these candles provide a personalized experience in both scent and design. Each candle is a reflection of the maker's creativity, often featuring distinctive fragrances, colors, and shapes that make them perfect for adding warmth and ambiance to any space. Handmade candles are not just functional; they are a form of self-expression and a thoughtful gift option that brings a cozy, handcrafted feel to any environment.</p>
+    </div>
+    <div class="image">
+      <img class="img" src="Doc2.jpg" alt="">
+      <!-- <img class="video" src="frames/Image 1.jpeg" alt=""> -->
+    </div>
+
+  </div>
+
+  <div class="Cards">
+    <div class="card">
+      <img class="cardImage" src="candles/candle12.jpeg" alt="5666">
+      <p class="cardPara">This is handmade jewelry & if you can buy contact in instagram.</p>
+      <div class="button">
+        <button class="btn4" type="button">View</button>
+        <button class="btn5" type="button">Edit</button>
+      </div>
+    </div>
+
+
+    <div class="card">
+      <img class="cardImage" src="candles/candle9.jpeg" alt="5666">
+      <p class="cardPara">This is handmade jewelry & if you can buy contact in instagram.</p>
+      <div class="button">
+        <button class="btn4" type="button">View</button>
+        <button class="btn5" type="button">Edit</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="cardImage" src="candles/candle13.jpeg" alt="5666">
+      <p class="cardPara">This is handmade jewelry & if you can buy contact in instagram.</p>
+      <div class="button">
+        <button class="btn4" type="button">View</button>
+        <button class="btn5" type="button">Edit</button>
+      </div>
+    </div>
+  </div>
+ 
+ 
+ 
+ 
+  <div style="display: flex; justify-content: center; margin: 15px;"><a href="candle.html"><button class="bn29">View All Products
+        of Scented Candles</button></a></div>
+  
+  
+  
+  
+    <div class="back">
+    <div class="container">
+      <div class="image">
+        <img class="img2" src="Doc5.jpg" alt="">
+        <!-- <video class="video2" src="2023-09-17 03-17-53.mp4" autoplay muted loop></video> -->
+      </div>
+      <div class="sec1">
+        <h1 class="heading">Earrings</h1>
+        <p class="paragraph">Handmade earrings are a celebration of creativity and craftsmanship, offering a unique alternative to mass-produced jewelry. Each pair is carefully designed and crafted by artisans, often using high-quality materials like sterling silver, beads, gemstones, or recycled elements. This attention to detail results in earrings that are not only beautiful but also one-of-a-kind, with each piece reflecting the maker's personal style and artistic vision. Handmade earrings add a special touch to any outfit, allowing the wearer to express their individuality while supporting artisans and small businesses that pour their passion into every creation. </p>
+      </div>
+    </div>
+    <div class="Cards">
+      <div class="card">
+        <img class="cardImage" src="earrings/earrring10.jpeg" alt="5666">
+        <p class="cardPara1">This is handmade jewelry & if you can buy contact in instagram.</p>
+        <div class="button">
+          <button class="btn4" type="button">View</button>
+          <button class="btn5" type="button">Edit</button>
+        </div>
+      </div>
+  
+  
+      <div class="card">
+        <img class="cardImage" src="earrings/earrring16.jpeg" alt="5666">
+        <p class="cardPara1">This is handmade jewelry & if you can buy contact in instagram.</p>
+        <div class="button">
+          <button class="btn4" type="button">View</button>
+          <button class="btn5" type="button">Edit</button>
+        </div>
+      </div>
+  
+      <div class="card">
+        <img class="cardImage" src="earrings/earrring2.jpeg" alt="5666">
+        <p class="cardPara1">This is handmade jewelry & if you can buy contact in instagram.</p>
+        <div class="button">
+          <button class="btn4" type="button">View</button>
+          <button class="btn5" type="button">Edit</button>
+        </div>
+      </div>
+    </div>
+    <div style="display: flex; justify-content: center; margin: 15px;"><a href="earring.html"><button class="bn29">View All Products
+          of Earrings</button></a></div>
+  </div>
+
+  <div class="container">
+    <div class="sec1">
+      <h1 class="heading">Mugs</h1>
+      <p class="paragraph">
+        Customized mugs are a perfect blend of functionality and personal expression, transforming an everyday item into a meaningful keepsake. Whether adorned with a favorite quote, a special date, or a unique design, these mugs can be tailored to reflect individual tastes or commemorate special moments. They make ideal gifts for birthdays, anniversaries, or corporate events, offering a personalized touch that shows thoughtfulness and creativity. Beyond their practical use, customized mugs serve as a constant reminder of the sentiment behind them, making each sip of coffee or tea a little more special.</p>
+    </div>
+    <div class="image">
+      <img class="img" src="Doc3.jpg" alt="">
+      <!-- <video class="video" src="2023-09-17 03-17-53.mp4" autoplay muted loop></video> -->
+    </div>
+  </div>
+
+  <div class="Cards">
+    <div class="card">
+      <img class="cardImage" src="Mugs/mug10.jpg" alt="5666">
+      <p class="cardPara">This is handmade jewelry & if you can buy contact in instagram.</p>
+      <div class="button">
+        <button class="btn4" type="button">View</button>
+        <button class="btn5" type="button">Edit</button>
+      </div>
+    </div>
+
+
+    <div class="card">
+      <img class="cardImage" src="Mugs/mug15.jpg" alt="5666">
+      <p class="cardPara">This is handmade jewelry & if you can buy contact in instagram.</p>
+      <div class="button">
+        <button class="btn4" type="button">View</button>
+        <button class="btn5" type="button">Edit</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="cardImage" src="Mugs/mug18.jpg" alt="5666">
+      <p class="cardPara">This is handmade jewelry & if you can buy contact in instagram.</p>
+      <div class="button">
+        <button class="btn4" type="button">View</button>
+        <button class="btn5" type="button">Edit</button>
+      </div>
+    </div>
+  </div>
+ 
+ 
+ 
+ 
+  <div style="display: flex; justify-content: center; margin: 15px;"><a href="mugs.html"><button class="bn29">View All Products
+        of Mugs</button></a></div>
+  
+
+  <div class="back">
+    <div class="container">
+      <div class="image">
+        <img class="img2" src="image with frames-images-1.jpg" alt="">
+        <!-- <video class="video2" src="2023-09-17 03-17-53.mp4" autoplay muted loop></video> -->
+      </div>
+      <div class="sec1">
+        <h1 class="heading">Necklace & Studes</h1>
+        <p class="paragraph">Customized necklaces and studs are the epitome of personal style, offering a way to create jewelry that holds special meaning and significance. Whether engraved with initials, names, or symbols, or designed with a specific gemstone or metal, these pieces are crafted to reflect the wearer's unique identity or commemorate a cherished memory. Customized jewelry is more than just an accessory; it becomes a treasured keepsake that can be passed down through generations. Perfect as thoughtful gifts or personal indulgences, customized necklaces and studs allow for an intimate connection to the piece, turning everyday jewelry into a deeply personal statement.</p>
+      </div>
+    </div>
+    <div class="Cards">
+      <div class="card">
+        <img class="cardImage" src="necklace/neck1.jpeg" alt="5666">
+        <p class="cardPara1">This is handmade jewelry & if you can buy contact in instagram.</p>
+        <div class="button">
+          <button class="btn4" type="button">View</button>
+          <button class="btn5" type="button">Edit</button>
+        </div>
+      </div>
+  
+  
+      <div class="card">
+        <img class="cardImage" src="necklace/neck13.jpeg" alt="5666">
+        <p class="cardPara1">This is handmade jewelry & if you can buy contact in instagram.</p>
+        <div class="button">
+          <button class="btn4" type="button">View</button>
+          <button class="btn5" type="button">Edit</button>
+        </div>
+      </div>
+  
+      <div class="card">
+        <img class="cardImage" src="necklace/neck18.jpeg" alt="5666">
+        <p class="cardPara1">This is handmade jewelry & if you can buy contact in instagram.</p>
+        <div class="button">
+          <button class="btn4" type="button">View</button>
+          <button class="btn5" type="button">Edit</button>
+        </div>
+      </div>
+    </div>
+   
+   
+   
+   
+    <div style="display: flex; justify-content: center; margin: 15px;"><a href="necklaces.html"><button class="bn29">View All Products
+          of Necklace & Studs</button></a></div>
+    
+  </div>
+
+  <div class="container">
+    <div class="sec1">
+      <h1 class="heading">Keychains </h1>
+      <p class="paragraph">
+        Customized keychains are a small yet powerful way to express individuality or commemorate special moments. These personalized accessories can be tailored with names, initials, meaningful dates, or unique designs, making them perfect for both practical use and sentimental value. Whether made from metal, leather, acrylic, or wood, customized keychains serve as constant reminders of the person or event they represent. They make thoughtful gifts for any occasion, from weddings to corporate events, and add a personal touch to everyday essentials. A customized keychain is not just a functional item but a cherished memento that keeps memories close at hand.</p>
+    </div>
+    <div class="image">
+      <img class="img" src="Doc4.jpg" alt="">
+      <!-- <video class="video" src="2023-09-17 03-17-53.mp4" autoplay muted loop></video> -->
+    </div>
+  </div>
+  <div class="Cards">
+    <div class="card">
+      <img class="cardImage" src="keychains/keychain13.jpeg" alt="5666">
+      <p class="cardPara">This is handmade jewelry & if you can buy contact in instagram.</p>
+      <div class="button">
+        <button class="btn4" type="button">View</button>
+        <button class="btn5" type="button">Edit</button>
+      </div>
+    </div>
+
+
+    <div class="card">
+      <img class="cardImage" src="keychains/keychain2.jpeg" alt="5666">
+      <p class="cardPara">This is handmade jewelry & if you can buy contact in instagram.</p>
+      <div class="button">
+        <button class="btn4" type="button">View</button>
+        <button class="btn5" type="button">Edit</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="cardImage" src="keychains/keychain4.jpeg" alt="5666">
+      <p class="cardPara">This is handmade jewelry & if you can buy contact in instagram.</p>
+      <div class="button">
+        <button class="btn4" type="button">View</button>
+        <button class="btn5" type="button">Edit</button>
+      </div>
+    </div>
+  </div>
+ 
+ 
+ 
+ 
+  <div style="display: flex; justify-content: center; margin: 15px;"><a href="Key chains.html"><button class="bn29">View All Products
+        of Key Chains</button></a></div>
+  
+
+  <div class="back">
+    <div class="container">
+      <div class="image">
+        <img class="img2" src="Doc6.jpg" alt="">
+        <!-- <video class="video2" src="2023-09-17 03-17-53.mp4" autoplay muted loop></video> -->
+      </div>
+      <div class="sec1">
+        <h1 class="heading">Hijab Pins</h1>
+        <p class="paragraph">
+          Customized hijab pins are a stylish and meaningful way to accessorize while adding a personal touch to an essential part of modest fashion. These pins can be tailored with intricate designs, initials, or even symbols that hold special significance, allowing wearers to express their individuality and cultural pride. Crafted from materials like metal, gemstones, or pearls, customized hijab pins not only secure the hijab in place but also enhance its elegance, making them both functional and decorative. Whether as a thoughtful gift or a personal statement, these bespoke pins add a unique flair to any hijab style, transforming a simple accessory into a cherished piece of personal expression. </p>
+      </div>
+    </div>
+    <div class="Cards">
+      <div class="card">
+        <img class="cardImage" src="hijabpins/hijab12.jpg" alt="5666">
+        <p class="cardPara1">This is handmade jewelry & if you can buy contact in instagram.</p>
+        <div class="button">
+          <button class="btn4" type="button">View</button>
+          <button class="btn5" type="button">Edit</button>
+        </div>
+      </div>
+  
+  
+      <div class="card">
+        <img class="cardImage" src="hijabpins/hijab11.jpg" alt="5666">
+        <p class="cardPara1">This is handmade jewelry & if you can buy contact in instagram.</p>
+        <div class="button">
+          <button class="btn4" type="button">View</button>
+          <button class="btn5" type="button">Edit</button>
+        </div>
+      </div>
+  
+      <div class="card">
+        <img class="cardImage" src="hijabpins/hijab1.jpg" alt="5666">
+        <p class="cardPara1">This is handmade jewelry & if you can buy contact in instagram.</p>
+        <div class="button">
+          <button class="btn4" type="button">View</button>
+          <button class="btn5" type="button">Edit</button>
+        </div>
+      </div>
+    </div>
+   
+   
+    <div style="display: flex; justify-content: center; margin: 15px;"><a href="Hijab Pins.html"><button class="bn29">View All Products
+          of Hijab Pins</button></a></div>
+    
+  </div>
+
+  <div class="container">
+    <div class="sec1">
+      <h1 class="heading">Jura Pins </h1>
+      <p class="paragraph">Customized Jura pins offer a unique way to add a personal touch to traditional attire, making them both functional and fashionable. Often used to secure garments like shawls, scarves, or saris, these pins can be customized with intricate designs, names, or meaningful symbols that reflect the wearer's heritage, style, or special memories. Crafted from materials such as metal, enamel, or adorned with gemstones, customized Jura pins blend tradition with modern personalization. They not only serve a practical purpose but also enhance the overall look of the outfit, making them a thoughtful gift or a distinctive addition to any wardrobe, where each pin tells a story of its own.</p>
+    </div>
+    <div class="image">
+      <img class="img" src="Doc1.jpg" alt="">
+      <!-- <video class="video" src="2023-09-17 03-17-53.mp4" autoplay muted loop></video> -->
+    </div>
+  </div>
+  <div class="Cards">
+    <div class="card">
+      <img class="cardImage" src="jura pins/jura2.jpg" alt="5666">
+      <p class="cardPara1">This is handmade jewelry & if you can buy contact in instagram.</p>
+      <div class="button">
+        <button class="btn4" type="button">View</button>
+        <button class="btn5" type="button">Edit</button>
+      </div>
+    </div>
+
+
+    <div class="card">
+      <img class="cardImage" src="jura pins/jura4.jpg" alt="5666">
+      <p class="cardPara1">This is handmade jewelry & if you can buy contact in instagram.</p>
+      <div class="button">
+        <button class="btn4" type="button">View</button>
+        <button class="btn5" type="button">Edit</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="cardImage" src="jura pins/jura5.jpg" alt="5666">
+      <p class="cardPara1">This is handmade jewelry & if you can buy contact in instagram.</p>
+      <div class="button">
+        <button class="btn4" type="button">View</button>
+        <button class="btn5" type="button">Edit</button>
+      </div>
+    </div>
+  </div>
+ 
+ 
+ 
+ 
+  <div style="display: flex; justify-content: center; margin: 15px;"><a href="jura.html"><button class="bn29">View All Products
+        of Jura Pins</button></a></div>
+  
+
+  <!-- <div class="links">
+    <div class="box">
+      <div class="container1">
+        <div class="first">
+          <img class="image3" src="facebook page.png" alt="">
+        </div>
+        <button class="first-button"><a href="https://www.facebook.com/profile.php?id=100076204000355">Facebook</a> <img
+            src="facebook-icon.png" alt="" width="20px" height="20px"></button>
+      </div>
+
+      <div class="container1">
+        <div class="first">
+          <img class="image3" src="youtube page.png" alt="">
+        </div>
+        <button class="second-button"><a href="https://www.youtube.com/@amaryllisbyadeenaadnan">YouTube </a><img
+            src="th.jpeg" alt="" width="20px" height="20px"></button>
+      </div>
+
+      <div class="container1">
+        <div class="first">
+          <img class="image3" src="insta page.png" alt="">
+        </div>
+        <button class="third-button"><a
+            href="https://instagram.com/amaryllisbyadeenaadnan?igshid=YmMyMTA2M2Y=">Instagram</a> <img
+            src="transparent-instagram-logo-768x512.png" alt="" width="32px" height="20px"></button>
+      </div>
+    </div>
+  </div> -->
+
+
+
+  <div class="footer">
+    <div style="display: flex; align-items: center;">
+      <img class="images0" src="logo with tran-parent.png" alt="">
+      <h1>Amaryllis By Adeena Adnan</h1>
+    </div>
+  
+    <div class="images">
+      <a href="https://www.facebook.com/profile.php?id=100076204000355"><img class="images1" src="facebook transp.png" alt=""></a>
+      <a href="https://www.instagram.com/amaryllisbyadeenaadnan?igsh=MWZzcWttNjB4eW00ZA=="><img class="images2" src="insta transp.png" alt=""></a>
+      <a href="https://www.youtube.com/@amaryllisbyadeenaadnan"><img class="images3" src="youtube-icon-transparent-png-17.png" alt="" ></a>
+      <a href="mailto:umeradnan7106@gmail.com"><img class="images4" src="email-transparent-icon-15.png" alt="" ></a>
+    </div>
+  </div>
+  
+  <div style="background-color: #000000c7">
+    <div class="flex">
+      <div class="foot1">
+        <p class="customize">Amaryllis By Adeena Adnan</p>
+        <p class="customize2">Amaryllis By Adeena Adnan</p>
+      </div>
+  
+  
+      <div class="foot2" >
+        <p class="customized">Contacts</p>
+        <p><a href="mailto:umeradnan7106@gmail.com" class="customizeImg"><img class="footImg1" src="email-transparent-icon-15.png" alt=""
+              style="margin: -6px 6px;">umeradnan7106@gmail.com</a></p>
+        <p><a href="https://www.facebook.com/profile.php?id=100076204000355" class="customizeImg"><img class="footImg2" src="facebook transp.png" alt="" 
+              style="margin: -6px 6px;">Amaryllis By Adeena Adnan </a></p>
+        <p><a href="https://www.instagram.com/amaryllisbyadeenaadnan?igsh=MWZzcWttNjB4eW00ZA==" class="customizeImg"><img class="footImg3" src="insta transp.png" alt="" 
+              style="margin: -6px 6px;">Amaryllis By Adeena Adnan</a></p>
+      </div>
+  
+    </div>
+  </div>
+</body>
+
+</html> 
